@@ -1,0 +1,59 @@
+<!doctype html>
+<html><head><title>WEB1 - html</title><meta charset="utf-8"></head><body>
+  <h1><a href="index.html">기본문법</a></h1>
+  <ol>
+    <li><a href="1.html">리스트</a></li>
+    <li><a href="2.html">표</a></li>
+  </ol>
+<h2>리스트</h2>
+ <ul type='square'>
+  <li>1. 지금 살짝 위기</li>
+  <li>2. 진짜 위기</li>
+  <li>3. 넘넘ㅁ넘 위기</li>
+</ul>
+<ul>
+  <li>김연빈</li>
+  <li>연빈</li>
+  <li>빈</li>
+</ul>
+<br>목록은 다른 목록과 구분할 수 있도록 경계가 필요합니다 이때 사용하는 태그가 ui태그 li태그는 목록
+<br>만약 1억개의 목록을 만들었는데 1번을 지워야 할시 뒤에 번호를 다 이동해야될것 하지만 ol이 이를 구제
+
+<ol type="i">
+  <li>list1</li>
+  <li>list2</li>
+  <li>list3</li>
+  <ol>
+    <li>list3-1</li>
+    <li>list3-2</li>
+    <li>list3-3</li>
+    <li>list3-4</li>
+  </ol>
+<li>list4</li>
+<li>list5</li>
+<li>list6</li>
+<li>list7</li>
+</ol>
+<ol type="a" start="11">
+  <li>list1</li>
+  <li>list2</li>
+  <li>list3</li>
+  <ol>
+    <li>list3-1</li>
+    <li>list3-2</li>
+    <li>list3-3</li>
+    <li>list3-4</li>
+  </ol>
+<li value="1">list4</li>
+<li>list5</li>
+<li>list6</li>
+<li>list7</li>
+</ol>
+ul태그와 ol 태그는 기본적인 속성이 정해져있습니다.
+<br>ul태그는 "type=circle" 속성이,
+ ol태그는 "type=1" 속성이 암묵적으로 포함되어 있습니다.
+<br>구지 이걸 적어주지 않으셔도 됩니다.
+
+<br>하지만, 속성을 바꾸고자 한다면
+ul태그 안에 속성을 "type=square"로 속성을 지정하면 원이 아닌 사각형으로 나타나고,
+ ol태그 안에 속성을 "type=a" 로 지정하면 숫자가 아닌 알파벳으로 나타나게 됩니다.
